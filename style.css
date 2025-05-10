@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+       background-image: url('https://doc.ro/uploads/photos/uploads/2022/DECEMBRIE/cele-mai-sanatoase-bauturi-alcoolice-potrivit-nutritionistilor-cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.category-title {
+    font-size: 1.5em;
+    color: #fdf6f6;
+    margin-bottom: 15px;
+}
+
+.drink-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    align-items: flex-start; /* Aliniază imaginea și textul în partea de sus */
+}
+
+.drink-image {
+    width: 150px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.ingredients-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #f1eded;
+}
+
